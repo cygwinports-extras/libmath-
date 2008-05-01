@@ -1,0 +1,4 @@
+category: Libs Math
+requires: libmath++0 libmath++-devel
+sdesc: "Calculus C++ template library (docs)"
+ldesc: "C++ template library for symbolic and numeric calculus applications"
