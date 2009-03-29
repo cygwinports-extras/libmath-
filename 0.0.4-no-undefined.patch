@@ -1,0 +1,11 @@
+--- origsrc/libmath++-0.0.4/math++/Makefile.am	2004-08-30 10:28:26.000000000 -0500
++++ src/libmath++-0.0.4/math++/Makefile.am	2008-04-30 07:23:42.468750000 -0500
+@@ -1,7 +1,7 @@
+ lib_LTLIBRARIES = libmath++.la
+ 
+ libmath___la_SOURCES = utils.cpp
+-libmath___la_LDFLAGS = -version-info @MATH_VERSION_INFO@
++libmath___la_LDFLAGS = -version-info @MATH_VERSION_INFO@ -no-undefined
+ 
+ mathinc_HEADERS = \
+ 	nodes.h nodes.tcc \
