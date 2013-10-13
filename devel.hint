@@ -1,5 +1,0 @@
-category: Math
-requires: libmath++0 libstdc++6-devel
-external-source: libmath++
-sdesc: "Calculus C++ template library (libdevel)"
-ldesc: "C++ template library for symbolic and numeric calculus applications"
